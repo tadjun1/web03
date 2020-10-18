@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cafe Olivia</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/colorbox.css">
+	<!--[if lt IE 9]>
+<script src="js/ie9.min.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery.colorbox-min.js"></script>
+	<script src="js/menu.js"></script>
+
+	<script type="text/javascript">
+		<!--
+		$(document).ready(function() {
+			//Examples of how to assign the ColorBox event to elements
+			$("a[rel='example1']").colorbox();
+			$("a[rel='example2']").colorbox({
+				transition: "fade"
+			});
+			$("a[rel='example3']").colorbox({
+				transition: "none",
+				width: "35%",
+				height: "50%"
+			});
+			$("a[rel='example4']").colorbox({
+				slideshow: true
+			});
+
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function() {
+				$('#click').css({
+					"background-color": "#f00",
+					"color": "#fff",
+					"cursor": "inherit"
+				}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+		-->
+	</script>
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="out-frame1">
+			<img src="img/logo_outside01.png" alt="cafeolivia">
+		</div>
+		<div class="out-frame1-m">
+			<img src="img/logo_outside02.png" alt="cafeolivia">
+		</div>
+		<div class="out-frame2"></div>
+		<header>
+			<div class="h-con">
+				<h1>
+					<a href="index.html">Cafe Olivia</a>
+				</h1>
+				<nav class="gnb">
+					<a href="#introduce">introduce</a>
+					<a href="#signature">signature</a>
+					<!--#menuinbox-->
+					<a href="#menuinbox">menu</a>
+					<a href="#menuinbox">map</a>
+					<a href="#menuinbox">sns</a>
+					<!---->
+					<a href="#baristas">baristas</a>
+				</nav>
+				<button class="menu-btn">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</button>
+			</div>
+		</header>
+
+		<figure class="visual">
+			<div class="v-con">
+				<div class="text-box">
+					<h2>Welcome.</h2>
+					<p>
+						환영 합니다. 이 곳에선 여러분들에게 <br>
+						평범한 일상의 짜릿함을 제공하고 있습니다.
+					</p>
+					<figure>
+						<audio src="media/September.mp3" controls loop></audio>
+					</figure>
+				</div>
+			</div>
+		</figure>
+		<!--  	#main-->
+		<main>
+			<section id="introduce">
+				<div class="blank"></div>
+				<h2>introduce</h2>
+				<div class="blank"></div>
+				<div class="intro-pic">
+					<a href="img/ceo.jpg" rel="example1"><img src="img/ceo.jpg" alt=""></a>
+					<div class="intro-sign">
+						<p>CEO</p>
+						<p><em>Tom E. Brown.</em></p>
+					</div>
+				</div>
+				<p class="intro-text">
+					&nbsp;9월의 피렌체, 저는 어느 작은 카페에서 그녀를 만났습니다. 제가 그녀를 만난 것은 운명 이었죠. 저는 그녀에게 첫눈에 반해 버렸습니다. 그 전까지 저는 앞만 보고 달려나가는 야생마와 같았죠. 저는 그때 알았습니다. 제가 있어야 할 곳이 여기라는 것을요.<br>
+					&nbsp;저는 항상 그때 그 감정을 느끼고 공유하고 싶었습니다. 그래서 저는 카페를 시작했습니다. 제가 첫눈에 반한 그녀, 지금은 제 아내가 된 그녀의 이름을 딴 카페 올리비아를요.
+				</p>
+			</section>
+			<div class="blank"></div>
+			<!--		#signature-->
+			<section id="signature">
+				<div class="blank"></div>
+				<h2>signature</h2>
+				<p>
+					저희 매장의 대표적인 시그니쳐 메뉴 입니다.
+				</p>
+				<div class="blank"></div>
+				<ul class="clearfix">
+					<li class="menu1"><a href="img/menu1.jpg" rel="example2">
+							<p class="menu1-pic"></p>
+							<p><i class="fas fa-plus-circle"></i> deep espresso</p>
+						</a></li>
+					<li class="menu2"><a href="img/menu2.jpg" rel="example2">
+							<p class="menu2-pic"></p>
+							<p><i class="fas fa-plus-circle"></i> macaron</p>
+						</a></li>
+					<li class="menu3"><a href="img/menu3.jpg" rel="example2">
+							<p class="menu3-pic"></p>
+							<p><i class="fas fa-plus-circle"></i> eclair</p>
+						</a></li>
+				</ul>
+				<div class="blank"></div>
+			</section>
+
+			<!--		#menuinbox-->
+			<section id="menuinbox">
+				<div class="blank"></div>
+				<h2 class="blind">menuinbox</h2>
+				<div class="mb-con">
+					<!--			1-->
+					<ul>
+						<li class="mb-con-ico1"><img src="img/ico_menu.png" alt="menu"></li>
+						<li class="mb-con-pic1">
+							<img src="img/ico_menu_human.png" alt="a man with a menuboard in his hand">
+						</li>
+					</ul>
+					<ul>
+						<li class="mb-con-ico2"><img src="img/ico_map.png" alt="map"></li>
+						<li class="mb-con-pic2">
+							<img src="img/ico_map_human.png" alt="a man with a map in his hand">
+						</li>
+					</ul>
+					<ul>
+						<li class="mb-con-ico3"><img src="img/ico_sns.png" alt="sns"></li>
+						<li class="mb-con-pic3">
+							<img src="img/ico_sns_human.png" alt="an woman with a phone in his hand">
+						</li>
+					</ul>
+				</div>
+				<div class="mb-con-m clearfix">
+					<a href="#">
+						<ul>
+							<li><i class="fas fa-coffee"></i></li>
+							<li>
+								<h2>menu</h2>
+							</li>
+						</ul>
+					</a>
+					<a href="#">
+						<ul>
+							<li><i class="fas fa-map-marked-alt"></i></li>
+							<li>
+								<h2>map</h2>
+							</li>
+						</ul>
+					</a>
+					<a href="#">
+						<ul>
+							<li><i class="fas fa-users"></i></li>
+							<li>
+								<h2>sns</h2>
+							</li>
+						</ul>
+					</a>
+				</div>
+				<div class="blank"></div>
+			</section>
+			<!--		.mid-text-->
+			<section class="mid-visual">
+				<h2 class="blind">september lyrics</h2>
+				<figure>
+					<video muted autoplay loop>
+						<source src="media/coffee2_720.mp4" type="video/mp4">
+					</video>
+					<blockquote>
+						Do you remember, the 21st night of September<br>
+						Love was changing the minds of pretenders
+						<em>-Earth, Wind &amp; Fire-</em>
+					</blockquote>
+				</figure>
+			</section>
+
+			<!--		#baristas-->
+			<section id="baristas">
+				<div class="blank"></div>
+				<h2>baristas</h2>
+				<p>
+					카페 올리비아의 자랑스러운 바리스타를 소개 합니다.
+				</p>
+				<div class="blank"></div>
+				<ul class="clearfix">
+					<li class="staff1">
+						<a href="img/staff_01.jpg" rel="example1">
+							<div class="staff-pic"></div>
+							<div class="staff-prof">
+								<p class="name"><i class="fas fa-plus-circle"></i> James Hampton</p>
+								<p class="date">Feb. 7, 2020</p>
+								<p class="desc">WORLD BARISTA CHAMP</p>
+								<p class="date">May. 5, 2018</p>
+								<p class="desc">SEOUL BARISTA CHAMP</p>
+								<p class="date">Aug. 16, 2017</p>
+								<p class="desc">MIAMI BARISTA CHAMP</p>
+							</div>
+						</a>
+					</li>
+					<li class="staff2">
+						<a href="img/staff_02.jpg" rel="example1">
+							<div class="staff-pic"></div>
+							<div class="staff-prof">
+								<p class="name"><i class="fas fa-plus-circle"></i> David Jone</p>
+								<p class="date">Dec. 29, 2019</p>
+								<p class="desc">WORLD BARISTA CHAMP</p>
+								<p class="date">Jan. 15, 2018</p>
+								<p class="desc">ROMA BARISTA CHAMP</p>
+								<p class="date">Mar. 3, 2017</p>
+								<p class="desc">LA BARISTA CHAMP</p>
+							</div>
+						</a>
+					</li>
+					<li class="staff3">
+						<a href="img/staff_03.jpg" rel="example1">
+							<div class="staff-pic"></div>
+							<div class="staff-prof">
+								<p class="name"><i class="fas fa-plus-circle"></i> Paul Cruise</p>
+								<p class="date">Sep. 9, 2020</p>
+								<p class="desc">HOLLYS BARISTA CHAMP</p>
+								<p class="date">May. 21, 2019</p>
+								<p class="desc">BAEKS BARISTA CHAMP</p>
+								<p class="date">Apr. 3, 2018</p>
+								<p class="desc">ZIPAP BARISTA CHAMP</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div class="blank"></div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="blank"></div>
+			<address>
+				Copyright &copy; <a href="#">Cafe Olivia.</a>
+			</address>
+			<div class="blank"></div>
+		</footer>
+
+	</div>
+</body></html>
