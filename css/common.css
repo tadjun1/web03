@@ -438,8 +438,23 @@ footer address {
 
 
 
-/*640~1280*/
-@media screen and (min-width: 641px) and (max-width: 1280px) {}
+/*641~1520*/
+@media screen and (min-width: 641px) and (max-width: 1520px) {
+	
+	.out-frame1 {
+		display: none;
+	}
+
+	.out-frame1-m {
+		display: block;
+		position: absolute;
+		top: -110px;
+		left: -5px;
+	}
+		.wrap {
+		top: 110px;
+	}
+}
 
 /*~639*/
 @media screen and (max-width: 640px) {
