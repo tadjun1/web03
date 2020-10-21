@@ -443,7 +443,8 @@ footer address {
 
 /*~639*/
 @media screen and (max-width: 640px) {
-	.out-frame1 {
+	.out-frame1,
+	.out-frame2 {
 		display: none;
 	}
 
